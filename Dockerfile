@@ -1,5 +1,4 @@
-FROM node:alpine
-MAINTAINER Alexander Kern <filepizza@kern.io>
+FROM arm64v8/node:alpine
 
 COPY . ./
 RUN npm install && npm run build
