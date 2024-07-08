@@ -49,8 +49,8 @@ export default class UploadPage extends React.Component {
             <Spinner dir="up" />
 
             <h1>FilePizza</h1>
-            <p>Free peer-to-peer file transfers in your browser.</p>
-            <small className="notice">We never store anything. Files only served fresh.</small>
+            <p>Secure peer-to-peer file transfers in your browser.</p>
+            <small className="notice">Nothing is stored. Files only served fresh.</small>
             <p>
               <label className="select-file-label">
                 <input type="file" onChange={this.handleSelectedFile} required/>
